@@ -1,0 +1,23 @@
+.welcome 
+{
+    width: 400px;
+}
+.showcase{
+    background-color: white;
+    max-height: 100%;
+    max-width: 100%;
+}
+.contact{
+    margin-left: 0px; color: rgb(47, 0, 255);
+}
+ 
+
+@media (max-width:600px) {
+    body {
+        background-color:red;
+    }
+}
+
+@media (min-width:600px) {
+    body { background-color:aliceblue;}
+}
